@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>Reastaurant_System</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="RestaurantLogic">
+      <HintPath>..\..\RestaurantLogic\RestaurantLogic\bin\Debug\net5.0\RestaurantLogic.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
